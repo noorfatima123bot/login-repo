@@ -1,0 +1,55 @@
+* {
+  padding: 0;
+  margin: 0;
+  color: aliceblue;
+}
+body {
+  background-image: url(sebastian-ashton-48uMbQE7Tco-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  width: 40vw;
+  height: 60vh;
+  border: 1px solid black;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 20vh;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.inputfield {
+  padding: 15px;
+  margin: 10px 0px;
+  border-radius: 20px;
+}
+.btn {
+  padding: 10px;
+  border-radius: 10px;
+  color: black;
+}
+h1 {
+  margin-bottom: 10px;
+}
+p {
+  margin-top: 30px;
+}
+@media (width < 700px) {
+  form {
+    width: 70vw;
+    height: 50vh;
+  }
+  .inputfield {
+    width: 40vw;
+    height: 15px;
+  }
+  body {
+    background-size: cover;
+    min-height: 100vh;
+  }
+}
